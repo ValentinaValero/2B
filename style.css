@@ -1,0 +1,60 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+nav {
+      background-color: blue;
+}
+
+nav ul {
+      list-style-type: none;
+      display: flex;
+      padding: 20px 0;
+}
+
+nav ul li {
+      margin: 0 15px;
+}
+
+nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 30px;
+      display: block;
+}
+
+nav ul li a:hover {
+      background-color: #010a66;
+}
+
+div.container {
+
+      width: 1250px;
+      height: 180px;
+      background-color: rgb(145, 158, 158);
+      margin: 80px;
+}
+
+div img.usuario {
+      width: 150px;
+      height: 150px;
+      margin: 15px;
+      vertical-align: middle;
+}
+
+div.container p.descricao {
+      display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
