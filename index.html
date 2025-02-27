@@ -1,29 +1,47 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
-      <link rel="stylesheet" href="style.css">
-      <meta charset="UTF-8"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+    <!--CSS-->
+     <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body>
-      <nav>
-            <ul>
-                  <li><a href="index.html">Início</a></li>
-                  <li><a href="./Perfil.html">Perfil</a></li>
-                  <li><a href=""></a></li>
-                  <li><a href=""></a></li>
-                  <li></li>
-            </ul>
-      </nav>
+
+<body> 
 
 
-<div class="container">
-      <img class="usuario" src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?semt=ais_hybrid">
-      <p class="descricao">Nome: Lorem ipsu</p>
-      <p class="descricao">Especialidade em Desing: 15 anos </p>
-      <p class="descricao">valores: Negociar</p>
-</div>
+ <!--<img src="https://static.vecteezy.com/ti/vetor-gratis/p1/7207818-futurista-tecnologico-grade-fundo-digital-futurista-ciber-espaco-design-cyberpunk-tecnologia-realidade-virtual-ficcao-cientifica-matriz-ciencia-luz-perspectiva-papel-de-parede-ilustracaoial-gratis-vetor.jpg" class="imagemAlterada01">-->
+    <h1 class="amarelo"></h1>
 
-</body>
+    <h2 class="corBranca">Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b class="corBranca">Usuário</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b class="corBranca">Senha</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit"><b>Login</b></button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"><b class="corBranca"> Remember me</b>
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancelar</button>
+    <span class="psw">Esqueceu a sua <a href="#">senha?</a></span>
+  </div>
+</form>
+
+
+    
+</body> 
+
 </html>
